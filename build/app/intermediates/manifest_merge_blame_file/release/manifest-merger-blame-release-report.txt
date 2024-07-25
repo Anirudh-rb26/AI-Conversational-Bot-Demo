@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.voice"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:2:5-70
+11-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:2:22-68
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:3:5-66
+12-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:3:22-64
+13    <uses-permission
+13-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:4:5-67
+14        android:name="android.permission.BLUETOOTH"
+14-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:4:22-65
+15        android:maxSdkVersion="30" />
+15-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:11:9-35
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:5:5-73
+16-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:5:22-71
+17    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+17-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:6:5-75
+17-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:6:22-73
+18    <!--
+19         Required to query activities that can process text, see:
+20         https://developer.android.com/training/package-visibility and
+21         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+22
+23         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+24    -->
+25    <queries>
+25-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:44:5-49:15
+26        <intent>
+26-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:45:9-48:18
+27            <action android:name="android.intent.action.PROCESS_TEXT" />
+27-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:46:13-72
+27-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:46:21-70
+28
+29            <data android:mimeType="text/plain" />
+29-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:47:13-50
+29-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:47:19-48
+30        </intent>
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->[:connectivity_plus] C:\Stuff\voice\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+33-->[:connectivity_plus] C:\Stuff\voice\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+34    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+34-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:5-80
+34-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:22-77
+35
+36    <application
+37        android:name="android.app.Application"
+37-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:9:9-42
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\eab696b19ea64c6a306bb684f2d21723\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:10:9-43
+40        android:label="voice" >
+40-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:8:9-30
+41        <activity
+41-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:11:9-32:20
+42            android:name="com.example.voice.MainActivity"
+42-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:12:13-41
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+43-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:17:13-163
+44            android:exported="true"
+44-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:13:13-36
+45            android:hardwareAccelerated="true"
+45-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:18:13-47
+46            android:launchMode="singleTop"
+46-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:14:13-43
+47            android:taskAffinity=""
+47-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:15:13-36
+48            android:theme="@style/LaunchTheme"
+48-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:16:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:19:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:24:13-27:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:25:15-70
+59                android:resource="@style/NormalTheme" />
+59-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:26:15-52
+60
+61            <intent-filter>
+61-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:28:13-31:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:29:17-68
+62-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:29:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:30:17-76
+64-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:30:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:35:9-37:33
+72            android:name="flutterEmbedding"
+72-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:36:13-44
+73            android:value="2" />
+73-->C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:37:13-30
+74
+75        <uses-library
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+76            android:name="androidx.window.extensions"
+76-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+78        <uses-library
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+79            android:name="androidx.window.sidecar"
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+81    </application>
+82
+83</manifest>

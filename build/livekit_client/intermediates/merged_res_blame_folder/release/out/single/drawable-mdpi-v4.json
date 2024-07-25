@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "io.livekit.plugin.livekit_client-merged_res-7:/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "io.livekit.plugin.livekit_client-core-1.6.0-9:/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "io.livekit.plugin.livekit_client-merged_res-7:/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "io.livekit.plugin.livekit_client-core-1.6.0-9:/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "io.livekit.plugin.livekit_client-merged_res-7:/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "io.livekit.plugin.livekit_client-core-1.6.0-9:/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "io.livekit.plugin.livekit_client-merged_res-7:/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "io.livekit.plugin.livekit_client-core-1.6.0-9:/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "io.livekit.plugin.livekit_client-merged_res-7:/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "io.livekit.plugin.livekit_client-core-1.6.0-9:/drawable-mdpi-v4/notification_bg_normal.9.png"
+    }
+]

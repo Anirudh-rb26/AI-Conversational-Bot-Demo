@@ -1,0 +1,4 @@
+#Thu Jul 25 09:28:07 IST 2024
+base.0=C\:\\Stuff\\voice\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,15 @@
+io.livekit.plugin.livekit_client-packaged_res-0 C:\Stuff\voice\build\connectivity_plus\intermediates\packaged_res\release
+io.livekit.plugin.livekit_client-packaged_res-1 C:\Stuff\voice\build\device_info_plus\intermediates\packaged_res\release
+io.livekit.plugin.livekit_client-packaged_res-2 C:\Stuff\voice\build\flutter_webrtc\intermediates\packaged_res\release
+io.livekit.plugin.livekit_client-pngs-3 C:\Stuff\voice\build\livekit_client\generated\res\pngs\release
+io.livekit.plugin.livekit_client-resValues-4 C:\Stuff\voice\build\livekit_client\generated\res\resValues\release
+io.livekit.plugin.livekit_client-rs-5 C:\Stuff\voice\build\livekit_client\generated\res\rs\release
+io.livekit.plugin.livekit_client-mergeReleaseResources-6 C:\Stuff\voice\build\livekit_client\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.livekit.plugin.livekit_client-mergeReleaseResources-7 C:\Stuff\voice\build\livekit_client\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.livekit.plugin.livekit_client-merged_res-8 C:\Stuff\voice\build\livekit_client\intermediates\merged_res\release
+io.livekit.plugin.livekit_client-jetified-window-1.0.0-beta04-9 C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\res
+io.livekit.plugin.livekit_client-core-1.6.0-10 C:\Users\aniru\.gradle\caches\transforms-3\765c765a6ee26fd6f78f8c951fb78077\transformed\core-1.6.0\res
+io.livekit.plugin.livekit_client-jetified-window-java-1.0.0-beta04-11 C:\Users\aniru\.gradle\caches\transforms-3\8bbe745ff4f1278ed458801fd2ef2824\transformed\jetified-window-java-1.0.0-beta04\res
+io.livekit.plugin.livekit_client-jetified-annotation-experimental-1.1.0-12 C:\Users\aniru\.gradle\caches\transforms-3\ef24d550c028b638e2b3a525f3b652b2\transformed\jetified-annotation-experimental-1.1.0\res
+io.livekit.plugin.livekit_client-main-13 C:\Users\aniru\AppData\Local\Pub\Cache\hosted\pub.dev\livekit_client-2.2.2\android\src\main\res
+io.livekit.plugin.livekit_client-release-14 C:\Users\aniru\AppData\Local\Pub\Cache\hosted\pub.dev\livekit_client-2.2.2\android\src\release\res

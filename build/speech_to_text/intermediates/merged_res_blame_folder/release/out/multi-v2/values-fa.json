@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.csdcorp.speech_to_text-mergeReleaseResources-2:/values-fa/values-fa.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\aniru\\.gradle\\caches\\transforms-3\\765c765a6ee26fd6f78f8c951fb78077\\transformed\\core-1.6.0\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.csdcorp.speech_to_text-merged_res-4:/values-fa/values-fa.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\aniru\\.gradle\\caches\\transforms-3\\765c765a6ee26fd6f78f8c951fb78077\\transformed\\core-1.6.0\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

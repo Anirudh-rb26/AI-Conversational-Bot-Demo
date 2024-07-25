@@ -1,0 +1,1 @@
+ C:\\Stuff\\voice\\.dart_tool\\flutter_build\\00a2a5bb219326f548b12505b050cd70\\native_assets.yaml: 

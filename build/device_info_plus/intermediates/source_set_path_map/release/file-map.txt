@@ -1,0 +1,12 @@
+dev.fluttercommunity.plus.device_info.device_info_plus-pngs-0 C:\Stuff\voice\build\device_info_plus\generated\res\pngs\release
+dev.fluttercommunity.plus.device_info.device_info_plus-resValues-1 C:\Stuff\voice\build\device_info_plus\generated\res\resValues\release
+dev.fluttercommunity.plus.device_info.device_info_plus-rs-2 C:\Stuff\voice\build\device_info_plus\generated\res\rs\release
+dev.fluttercommunity.plus.device_info.device_info_plus-mergeReleaseResources-3 C:\Stuff\voice\build\device_info_plus\intermediates\incremental\release\mergeReleaseResources\merged.dir
+dev.fluttercommunity.plus.device_info.device_info_plus-mergeReleaseResources-4 C:\Stuff\voice\build\device_info_plus\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+dev.fluttercommunity.plus.device_info.device_info_plus-merged_res-5 C:\Stuff\voice\build\device_info_plus\intermediates\merged_res\release
+dev.fluttercommunity.plus.device_info.device_info_plus-jetified-window-1.0.0-beta04-6 C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\res
+dev.fluttercommunity.plus.device_info.device_info_plus-core-1.6.0-7 C:\Users\aniru\.gradle\caches\transforms-3\765c765a6ee26fd6f78f8c951fb78077\transformed\core-1.6.0\res
+dev.fluttercommunity.plus.device_info.device_info_plus-jetified-window-java-1.0.0-beta04-8 C:\Users\aniru\.gradle\caches\transforms-3\8bbe745ff4f1278ed458801fd2ef2824\transformed\jetified-window-java-1.0.0-beta04\res
+dev.fluttercommunity.plus.device_info.device_info_plus-jetified-annotation-experimental-1.1.0-9 C:\Users\aniru\.gradle\caches\transforms-3\ef24d550c028b638e2b3a525f3b652b2\transformed\jetified-annotation-experimental-1.1.0\res
+dev.fluttercommunity.plus.device_info.device_info_plus-main-10 C:\Users\aniru\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-10.1.0\android\src\main\res
+dev.fluttercommunity.plus.device_info.device_info_plus-release-11 C:\Users\aniru\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-10.1.0\android\src\release\res

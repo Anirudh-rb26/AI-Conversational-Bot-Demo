@@ -1,0 +1,12 @@
+com.cloudwebrtc.webrtc.flutter_webrtc-pngs-0 C:\Stuff\voice\build\flutter_webrtc\generated\res\pngs\release
+com.cloudwebrtc.webrtc.flutter_webrtc-resValues-1 C:\Stuff\voice\build\flutter_webrtc\generated\res\resValues\release
+com.cloudwebrtc.webrtc.flutter_webrtc-rs-2 C:\Stuff\voice\build\flutter_webrtc\generated\res\rs\release
+com.cloudwebrtc.webrtc.flutter_webrtc-mergeReleaseResources-3 C:\Stuff\voice\build\flutter_webrtc\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.cloudwebrtc.webrtc.flutter_webrtc-mergeReleaseResources-4 C:\Stuff\voice\build\flutter_webrtc\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-5 C:\Stuff\voice\build\flutter_webrtc\intermediates\merged_res\release
+com.cloudwebrtc.webrtc.flutter_webrtc-jetified-window-1.0.0-beta04-6 C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\res
+com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-7 C:\Users\aniru\.gradle\caches\transforms-3\765c765a6ee26fd6f78f8c951fb78077\transformed\core-1.6.0\res
+com.cloudwebrtc.webrtc.flutter_webrtc-jetified-window-java-1.0.0-beta04-8 C:\Users\aniru\.gradle\caches\transforms-3\8bbe745ff4f1278ed458801fd2ef2824\transformed\jetified-window-java-1.0.0-beta04\res
+com.cloudwebrtc.webrtc.flutter_webrtc-jetified-annotation-experimental-1.1.0-9 C:\Users\aniru\.gradle\caches\transforms-3\ef24d550c028b638e2b3a525f3b652b2\transformed\jetified-annotation-experimental-1.1.0\res
+com.cloudwebrtc.webrtc.flutter_webrtc-main-10 C:\Users\aniru\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_webrtc-0.11.5\android\src\main\res
+com.cloudwebrtc.webrtc.flutter_webrtc-release-11 C:\Users\aniru\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_webrtc-0.11.5\android\src\release\res

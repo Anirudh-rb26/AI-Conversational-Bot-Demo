@@ -1,0 +1,14 @@
+com.tundralabs.fluttertts.flutter_tts-pngs-0 C:\Stuff\voice\build\flutter_tts\generated\res\pngs\release
+com.tundralabs.fluttertts.flutter_tts-resValues-1 C:\Stuff\voice\build\flutter_tts\generated\res\resValues\release
+com.tundralabs.fluttertts.flutter_tts-rs-2 C:\Stuff\voice\build\flutter_tts\generated\res\rs\release
+com.tundralabs.fluttertts.flutter_tts-mergeReleaseResources-3 C:\Stuff\voice\build\flutter_tts\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.tundralabs.fluttertts.flutter_tts-mergeReleaseResources-4 C:\Stuff\voice\build\flutter_tts\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.tundralabs.fluttertts.flutter_tts-merged_res-5 C:\Stuff\voice\build\flutter_tts\intermediates\merged_res\release
+com.tundralabs.fluttertts.flutter_tts-jetified-window-1.0.0-beta04-6 C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\res
+com.tundralabs.fluttertts.flutter_tts-lifecycle-runtime-2.3.1-7 C:\Users\aniru\.gradle\caches\transforms-3\61970214707cc7c437d42c4bf8fd018a\transformed\lifecycle-runtime-2.3.1\res
+com.tundralabs.fluttertts.flutter_tts-jetified-window-java-1.0.0-beta04-8 C:\Users\aniru\.gradle\caches\transforms-3\8bbe745ff4f1278ed458801fd2ef2824\transformed\jetified-window-java-1.0.0-beta04\res
+com.tundralabs.fluttertts.flutter_tts-jetified-core-ktx-1.8.0-9 C:\Users\aniru\.gradle\caches\transforms-3\c35f714a37d23aa91e9e873bc7c5486b\transformed\jetified-core-ktx-1.8.0\res
+com.tundralabs.fluttertts.flutter_tts-core-1.8.0-10 C:\Users\aniru\.gradle\caches\transforms-3\eab696b19ea64c6a306bb684f2d21723\transformed\core-1.8.0\res
+com.tundralabs.fluttertts.flutter_tts-jetified-annotation-experimental-1.1.0-11 C:\Users\aniru\.gradle\caches\transforms-3\ef24d550c028b638e2b3a525f3b652b2\transformed\jetified-annotation-experimental-1.1.0\res
+com.tundralabs.fluttertts.flutter_tts-main-12 C:\Users\aniru\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_tts-4.0.2\android\src\main\res
+com.tundralabs.fluttertts.flutter_tts-release-13 C:\Users\aniru\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_tts-4.0.2\android\src\release\res
