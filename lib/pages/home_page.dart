@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:location/location.dart';
 import 'package:speech_to_text/speech_to_text.dart';
 import 'package:voice/services/openai_services.dart';
 
@@ -14,6 +15,9 @@ class _HomePageState extends State<HomePage> {
   final SpeechToText _speechToText = SpeechToText();
   final FlutterTts _tts = FlutterTts();
   final OpenAiServices _openAiServices = OpenAiServices();
+  final Location _location = Location();
+  LocationData? _locationData; // Store location data
+
   bool _speechEnabled = false;
   String _wordsSpoken = "";
 
@@ -22,6 +26,7 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     initSpeechToText();
     initTextToSpeech();
+    fetchLocation();
   }
 
   void initSpeechToText() async {
@@ -54,10 +59,35 @@ class _HomePageState extends State<HomePage> {
     await _tts.speak(content);
   }
 
+  Future<void> fetchLocation() async {
+    bool serviceEnabled;
+    PermissionStatus permissionGranted;
+
+    serviceEnabled = await _location.serviceEnabled();
+    if (!serviceEnabled) {
+      serviceEnabled = await _location.requestService();
+      if (!serviceEnabled) {
+        return; // If service is not enabled, exit
+      }
+    }
+
+    permissionGranted = await _location.hasPermission();
+    if (permissionGranted == PermissionStatus.denied) {
+      permissionGranted = await _location.requestPermission();
+      if (permissionGranted != PermissionStatus.granted) {
+        return; // If permission is denied, exit
+      }
+    }
+
+    final locationData = await _location.getLocation();
+    setState(() {
+      _locationData = locationData;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // App Bar
       appBar: AppBar(
         backgroundColor: Colors.deepPurpleAccent,
         title: const Text(
@@ -70,6 +100,26 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           children: [
+            // Location
+            Container(
+              padding: const EdgeInsets.all(8.0),
+              margin: const EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Colors.blueGrey,
+                ),
+                borderRadius: BorderRadius.circular(10.0),
+              ),
+              child: _locationData != null
+                  ? Text(
+                      "Latitude: ${_locationData!.latitude}, Longitude: ${_locationData!.longitude}",
+                      style: const TextStyle(fontSize: 20),
+                    )
+                  : const Text(
+                      "Fetching location...",
+                      style: TextStyle(fontSize: 20),
+                    ),
+            ),
             // Heading
             Container(
               padding: const EdgeInsets.all(8.0),
@@ -113,23 +163,15 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      // Floating Action Button (controls mic input)
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
           if (_speechToText.isNotListening) {
-            // print("Start listening...");
             _startListening();
           } else if (_speechToText.isListening) {
-            // print("Stop listening...");
-            // const _wordsSpokenTest = "tell me about ai in simple words";
             final speech = await _openAiServices.chatGPTAPI(_wordsSpoken);
-            // print("Received response from chatGPTAPI: $speech");
             await systemSpeak(speech);
-            // print("Spoken: $speech");
             _stopListening();
-            print("Stopped listening.");
           } else {
-            // print("Initialize speech to text...");
             initSpeechToText();
           }
         },

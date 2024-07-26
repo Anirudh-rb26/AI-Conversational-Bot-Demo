@@ -200,6 +200,24 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "location",
+      "rootUri": "file:///C:/Users/aniru/AppData/Local/Pub/Cache/hosted/pub.dev/location-6.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "location_platform_interface",
+      "rootUri": "file:///C:/Users/aniru/AppData/Local/Pub/Cache/hosted/pub.dev/location_platform_interface-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "location_web",
+      "rootUri": "file:///C:/Users/aniru/AppData/Local/Pub/Cache/hosted/pub.dev/location_web-5.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "logging",
       "rootUri": "file:///C:/Users/aniru/AppData/Local/Pub/Cache/hosted/pub.dev/logging-1.2.0",
       "packageUri": "lib/",
@@ -458,7 +476,7 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-07-25T02:50:50.853245Z",
+  "generated": "2024-07-25T14:35:58.875599Z",
   "generator": "pub",
   "generatorVersion": "3.4.4",
   "flutterRoot": "file:///C:/dev/flutter",

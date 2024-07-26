@@ -32,6 +32,8 @@
 	<string>Permission required to run speech recognition</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Microphone usage description</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

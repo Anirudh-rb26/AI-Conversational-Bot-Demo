@@ -1,14 +1,24 @@
 -- Merging decision tree log ---
 application
 INJECTED from C:\Stuff\voice\android\app\src\main\AndroidManifest.xml:7:5-38:19
+MERGED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-18:19
+MERGED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-18:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\aniru\.gradle\caches\transforms-3\15c724c072cd2149ae0083c736805fb3\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\aniru\.gradle\caches\transforms-3\15c724c072cd2149ae0083c736805fb3\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:7:5-20
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\eab696b19ea64c6a306bb684f2d21723\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\eab696b19ea64c6a306bb684f2d21723\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\aniru\.gradle\caches\transforms-3\c9ae41d8775e4898eec4b26e6a41a2bc\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\aniru\.gradle\caches\transforms-3\c9ae41d8775e4898eec4b26e6a41a2bc\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aniru\.gradle\caches\transforms-3\1893b7c7571c822a1d86e634d0fb0628\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aniru\.gradle\caches\transforms-3\1893b7c7571c822a1d86e634d0fb0628\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\eab696b19ea64c6a306bb684f2d21723\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 	android:name
 		INJECTED from C:\Stuff\voice\android\app\src\main\AndroidManifest.xml
 manifest
@@ -22,29 +32,35 @@ MERGED from [:connectivity_plus] C:\Stuff\voice\build\connectivity_plus\intermed
 MERGED from [:device_info_plus] C:\Stuff\voice\build\device_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_tts] C:\Stuff\voice\build\flutter_tts\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_webrtc] C:\Stuff\voice\build\flutter_webrtc\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-20:12
 MERGED from [:path_provider_android] C:\Stuff\voice\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:speech_to_text] C:\Stuff\voice\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\c35f714a37d23aa91e9e873bc7c5486b\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\aniru\.gradle\caches\transforms-3\15c724c072cd2149ae0083c736805fb3\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\8bbe745ff4f1278ed458801fd2ef2824\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\aniru\.gradle\caches\transforms-3\c9ae41d8775e4898eec4b26e6a41a2bc\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\aniru\.gradle\caches\transforms-3\8177ae07ffbb4e8d98b553ffdba7e56f\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\3acf95722677e2acbd440f4362aed813\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\ae49d112775139f94e6a47eee1b6005a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\5f88728cc5cab2336020160b75297b88\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\8ece5947e7f136ccbd172698d0b20ee7\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\46b7ce4fa55b580a78eb49e10c063cbf\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\eab696b19ea64c6a306bb684f2d21723\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\5b620af477b56d571886d942f838de8b\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\3acf95722677e2acbd440f4362aed813\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aniru\.gradle\caches\transforms-3\1893b7c7571c822a1d86e634d0fb0628\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\aniru\.gradle\caches\transforms-3\61970214707cc7c437d42c4bf8fd018a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\d59b9ac009a434ad898403f47d901a14\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\aniru\.gradle\caches\transforms-3\1bfed9866c0287e1b9d9c4d9aa60d63d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\112a15cadf63637a21b200cb3f4f7fa1\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\aniru\.gradle\caches\transforms-3\eb8d3940916f1cd7cd79add86fea0077\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\aniru\.gradle\caches\transforms-3\4c3b2251dacad355d939db1b8a543ea3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aniru\.gradle\caches\transforms-3\791031e3bdd617776b961c2d3ae66a61\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\aniru\.gradle\caches\transforms-3\2922ac0d39adec809a5da3aa324c512c\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\aniru\.gradle\caches\transforms-3\3af2eb1c2e4852894ba809ffd93141f9\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [io.github.webrtc-sdk:android:125.6422.03] C:\Users\aniru\.gradle\caches\transforms-3\09af3d45601062bc916c7ecf6a289ba8\transformed\jetified-android-125.6422.03\AndroidManifest.xml:11:1-14:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\aniru\.gradle\caches\transforms-3\ef24d550c028b638e2b3a525f3b652b2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Stuff\voice\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Stuff\voice\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Stuff\voice\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -114,22 +130,28 @@ MERGED from [:flutter_tts] C:\Stuff\voice\build\flutter_tts\intermediates\merged
 MERGED from [:flutter_tts] C:\Stuff\voice\build\flutter_tts\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_webrtc] C:\Stuff\voice\build\flutter_webrtc\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_webrtc] C:\Stuff\voice\build\flutter_webrtc\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] C:\Stuff\voice\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] C:\Stuff\voice\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:speech_to_text] C:\Stuff\voice\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:speech_to_text] C:\Stuff\voice\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\c35f714a37d23aa91e9e873bc7c5486b\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\c35f714a37d23aa91e9e873bc7c5486b\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\aniru\.gradle\caches\transforms-3\15c724c072cd2149ae0083c736805fb3\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\aniru\.gradle\caches\transforms-3\15c724c072cd2149ae0083c736805fb3\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\8bbe745ff4f1278ed458801fd2ef2824\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\8bbe745ff4f1278ed458801fd2ef2824\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\aniru\.gradle\caches\transforms-3\c9ae41d8775e4898eec4b26e6a41a2bc\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\aniru\.gradle\caches\transforms-3\c9ae41d8775e4898eec4b26e6a41a2bc\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\aniru\.gradle\caches\transforms-3\8177ae07ffbb4e8d98b553ffdba7e56f\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\aniru\.gradle\caches\transforms-3\8177ae07ffbb4e8d98b553ffdba7e56f\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\3acf95722677e2acbd440f4362aed813\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\3acf95722677e2acbd440f4362aed813\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\ae49d112775139f94e6a47eee1b6005a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\ae49d112775139f94e6a47eee1b6005a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\5f88728cc5cab2336020160b75297b88\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
@@ -138,12 +160,18 @@ MERGED from [androidx.activity:activity:1.0.0] C:\Users\aniru\.gradle\caches\tra
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\8ece5947e7f136ccbd172698d0b20ee7\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\46b7ce4fa55b580a78eb49e10c063cbf\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\46b7ce4fa55b580a78eb49e10c063cbf\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\eab696b19ea64c6a306bb684f2d21723\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\eab696b19ea64c6a306bb684f2d21723\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\5b620af477b56d571886d942f838de8b\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\5b620af477b56d571886d942f838de8b\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\3acf95722677e2acbd440f4362aed813\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\3acf95722677e2acbd440f4362aed813\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aniru\.gradle\caches\transforms-3\1893b7c7571c822a1d86e634d0fb0628\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aniru\.gradle\caches\transforms-3\1893b7c7571c822a1d86e634d0fb0628\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\aniru\.gradle\caches\transforms-3\61970214707cc7c437d42c4bf8fd018a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\aniru\.gradle\caches\transforms-3\61970214707cc7c437d42c4bf8fd018a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\d59b9ac009a434ad898403f47d901a14\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\d59b9ac009a434ad898403f47d901a14\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\aniru\.gradle\caches\transforms-3\1bfed9866c0287e1b9d9c4d9aa60d63d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\aniru\.gradle\caches\transforms-3\1bfed9866c0287e1b9d9c4d9aa60d63d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\aniru\.gradle\caches\transforms-3\112a15cadf63637a21b200cb3f4f7fa1\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -154,12 +182,12 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\aniru\.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\aniru\.gradle\caches\transforms-3\4c3b2251dacad355d939db1b8a543ea3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aniru\.gradle\caches\transforms-3\791031e3bdd617776b961c2d3ae66a61\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aniru\.gradle\caches\transforms-3\791031e3bdd617776b961c2d3ae66a61\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\aniru\.gradle\caches\transforms-3\2922ac0d39adec809a5da3aa324c512c\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\aniru\.gradle\caches\transforms-3\2922ac0d39adec809a5da3aa324c512c\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\aniru\.gradle\caches\transforms-3\3af2eb1c2e4852894ba809ffd93141f9\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\aniru\.gradle\caches\transforms-3\3af2eb1c2e4852894ba809ffd93141f9\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [io.github.webrtc-sdk:android:125.6422.03] C:\Users\aniru\.gradle\caches\transforms-3\09af3d45601062bc916c7ecf6a289ba8\transformed\jetified-android-125.6422.03\AndroidManifest.xml:13:3-72
 MERGED from [io.github.webrtc-sdk:android:125.6422.03] C:\Users\aniru\.gradle\caches\transforms-3\09af3d45601062bc916c7ecf6a289ba8\transformed\jetified-android-125.6422.03\AndroidManifest.xml:13:3-72
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\aniru\.gradle\caches\transforms-3\ef24d550c028b638e2b3a525f3b652b2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\aniru\.gradle\caches\transforms-3\ef24d550c028b638e2b3a525f3b652b2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Stuff\voice\android\app\src\debug\AndroidManifest.xml
 INJECTED from C:\Stuff\voice\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -172,6 +200,24 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:connectivity_plus] C:\Stuff\voice\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
 	android:name
 		ADDED from [:connectivity_plus] C:\Stuff\voice\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+	android:enabled
+		ADDED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+	android:exported
+		ADDED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+	android:foregroundServiceType
+		ADDED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+	android:name
+		ADDED from [:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required
@@ -188,3 +234,37 @@ uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
 ADDED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:5-80
 	android:name
 		ADDED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:22-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+permission#com.example.voice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.voice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:26:22-94

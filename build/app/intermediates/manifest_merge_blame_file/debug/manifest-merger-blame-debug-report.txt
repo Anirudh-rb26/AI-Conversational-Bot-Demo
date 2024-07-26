@@ -54,63 +54,107 @@
 37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 37-->[:connectivity_plus] C:\Stuff\voice\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
 37-->[:connectivity_plus] C:\Stuff\voice\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
-38    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-38-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:5-80
-38-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:22-77
-39
-40    <application
-41        android:name="android.app.Application"
-42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-42-->[androidx.core:core:1.8.0] C:\Users\aniru\.gradle\caches\transforms-3\eab696b19ea64c6a306bb684f2d21723\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-43        android:debuggable="true"
-44        android:icon="@mipmap/ic_launcher"
-45        android:label="voice" >
-46        <activity
-47            android:name="com.example.voice.MainActivity"
-48            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-49            android:exported="true"
-50            android:hardwareAccelerated="true"
-51            android:launchMode="singleTop"
-52            android:taskAffinity=""
-53            android:theme="@style/LaunchTheme"
-54            android:windowSoftInputMode="adjustResize" >
-55
-56            <!--
-57                 Specifies an Android theme to apply to this Activity as soon as
-58                 the Android process has started. This theme is visible to the user
-59                 while the Flutter UI initializes. After that, this theme continues
-60                 to determine the Window background behind the Flutter UI.
-61            -->
-62            <meta-data
-63                android:name="io.flutter.embedding.android.NormalTheme"
-64                android:resource="@style/NormalTheme" />
-65
-66            <intent-filter>
-67                <action android:name="android.intent.action.MAIN" />
-68
-69                <category android:name="android.intent.category.LAUNCHER" />
-70            </intent-filter>
-71        </activity>
-72        <!--
-73             Don't delete the meta-data below.
-74             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-75        -->
-76        <meta-data
-77            android:name="flutterEmbedding"
-78            android:value="2" />
-79
-80        <uses-library
-80-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-81            android:name="androidx.window.extensions"
-81-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-82            android:required="false" />
-82-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-83        <uses-library
-83-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-84            android:name="androidx.window.sidecar"
-84-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-85            android:required="false" />
-85-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-86    </application>
+38    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+38-->[:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+38-->[:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+39    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+39-->[:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+39-->[:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+40    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+40-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:5-80
+40-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\aniru\.gradle\caches\transforms-3\e1fa3027767df1164ce4f39aba126629\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:22-77
+41
+42    <permission
+42-->[androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+43        android:name="com.example.voice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.example.voice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+47
+48    <application
+49        android:name="android.app.Application"
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.10.1] C:\Users\aniru\.gradle\caches\transforms-3\b9e4f5078c997e1a24d7ade74d348972\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+51        android:debuggable="true"
+52        android:icon="@mipmap/ic_launcher"
+53        android:label="voice" >
+54        <activity
+55            android:name="com.example.voice.MainActivity"
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+57            android:exported="true"
+58            android:hardwareAccelerated="true"
+59            android:launchMode="singleTop"
+60            android:taskAffinity=""
+61            android:theme="@style/LaunchTheme"
+62            android:windowSoftInputMode="adjustResize" >
+63
+64            <!--
+65                 Specifies an Android theme to apply to this Activity as soon as
+66                 the Android process has started. This theme is visible to the user
+67                 while the Flutter UI initializes. After that, this theme continues
+68                 to determine the Window background behind the Flutter UI.
+69            -->
+70            <meta-data
+71                android:name="io.flutter.embedding.android.NormalTheme"
+72                android:resource="@style/NormalTheme" />
+73
+74            <intent-filter>
+75                <action android:name="android.intent.action.MAIN" />
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+78            </intent-filter>
+79        </activity>
+80        <!--
+81             Don't delete the meta-data below.
+82             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+83        -->
+84        <meta-data
+85            android:name="flutterEmbedding"
+86            android:value="2" />
 87
-88</manifest>
+88        <service
+88-->[:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+89            android:name="com.lyokone.location.FlutterLocationService"
+89-->[:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+90            android:enabled="true"
+90-->[:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+91            android:exported="false"
+91-->[:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+92            android:foregroundServiceType="location" />
+92-->[:location] C:\Stuff\voice\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+93
+94        <uses-library
+94-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+95            android:name="androidx.window.extensions"
+95-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+96            android:required="false" />
+96-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+97        <uses-library
+97-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+98            android:name="androidx.window.sidecar"
+98-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+99            android:required="false" />
+99-->[androidx.window:window:1.0.0-beta04] C:\Users\aniru\.gradle\caches\transforms-3\4f86f4c61b99618f34b2dcd4061fd4e1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\e2b75c668ee6ed43f4451593c0411cae\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+105
+106        <meta-data
+106-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+107            android:name="com.google.android.gms.version"
+107-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+108            android:value="@integer/google_play_services_version" />
+108-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\aniru\.gradle\caches\transforms-3\40a6846c66df7cef3336541a280cfdef\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+109    </application>
+110
+111</manifest>
